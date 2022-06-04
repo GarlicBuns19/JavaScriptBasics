@@ -14,7 +14,7 @@ multi-line comment */
     object*/
 
 // We tell JavaScript to create or declare a variable by putting the keyword var in front of it
-var ourName;
+    var ourName;
 /*  creates a variable called ourName. 
     Variable names can be made up of numbers, letters, and $ or _, 
     but may not contain spaces or start with a number.  */
@@ -51,3 +51,20 @@ multi-word variable names have the first word in lowercase, second word in caps 
     const FAV_PET = "Cats";
     FAV_PET = "Dogs";
     // The console will display an error due to reassigning the value of FAV_PET.
+    // uppercase for const
+    // camelCase for var and let
+
+    //Use + symbol as an addition operator when placed between two numbers.
+    const myVar = 2 + 2;
+    //Use the * symbol for multiplication of two numbers.
+    const myVar = 2 * 2;
+    //Use the / symbol for multiplication of two numbers.
+    const myVar = 2 / 2;
+
+    // Increment a number
+    i = 10 
+    i++
+    // 11 is answer
+    ++i 
+    // 12 is answer
+    
