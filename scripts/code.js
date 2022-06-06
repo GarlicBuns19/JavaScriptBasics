@@ -68,3 +68,24 @@ multi-word variable names have the first word in lowercase, second word in caps 
     ++i 
     // 12 is answer
     
+// The remainder operator % gives the remainder of the division of two numbers.
+    // 5 % 2 = 1
+    // Math.floor(5 / 2) = 2
+    // 2 * 2 = 4
+    // 5 - 4 = 1
+    // Usage
+    // In mathematics, a number can be checked to be even or odd by checking the remainder of the division of the number by 2.
+    // 17 % 2 = 1 (17 \'is Odd')
+    // 48 % 2 = 0 (48 \'is Even')
+
+    // In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
+
+    myVar = myVar + 5;
+    // to add 5 to myVar. Since this is such a common pattern, there are operators which do both a mathematical operation and assignment in one step.
+
+    // One such operator is the +=,-=,/=,*= operator.
+
+    let myVar = 1;
+    myVar += 5;
+    console.log(myVar);
+    // 6 would be displayed in the console.
