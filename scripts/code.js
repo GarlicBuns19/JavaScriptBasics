@@ -174,3 +174,31 @@ multi-word variable names have the first word in lowercase, second word in caps 
         // Only change code below this line
         lastNameLength = lastName.length;
         console.log(lastNameLength.length);
+
+        // Bracket notation is a way to get a character at a specific index within a string.
+
+        // Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as Zero-based indexing.
+
+        // For example, the character at index 0 in the word Charles is C. So if const firstName = "Charles", you can get the value of the first letter of the string by using firstName[0].
+
+        const firstName = "Charles";
+        const firstLetter = firstName[0];
+
+        // Remember that computers start counting at 0, so the first character is actually the zeroth character.
+        const firstName2 = "Ada";
+        const secondLetterOfFirstName = firstName[1];
+        // secondLetterOfFirstName would have a value of the string d.
+
+        // For example, if const firstName = "Ada", you can get the value of the last letter of the string by using firstName[firstName.length - 1].
+
+        const firstName3 = "Ada";
+        const lastLetter = firstName[firstName.length - 1];
+        // lastLetter would have a value of the string a.
+
+        // You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
+
+        // For example, you can get the value of the third-to-last letter of the const firstName = "Augusta" string by using firstName[firstName.length - 3]
+
+        const firstName4 = "Augusta";
+        const thirdToLastLetter = firstName[firstName.length - 3];
+        // thirdToLastLetter would have a value of the string s.
