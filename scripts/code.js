@@ -202,3 +202,18 @@ multi-word variable names have the first word in lowercase, second word in caps 
         const firstName4 = "Augusta";
         const thirdToLastLetter = firstName[firstName.length - 3];
         // thirdToLastLetter would have a value of the string s.
+
+        /*We will now use our knowledge of strings to build a "Mad Libs" style word game we're calling "Word Blanks". You will create an (optionally humorous) "Fill in the Blanks" style sentence.
+
+        In a "Mad Libs" game, you are provided sentences with some missing words, like nouns, verbs, adjectives and adverbs. You then fill in the missing pieces with words of your choice in a way that the completed sentence makes sense.
+
+        Consider this sentence - It was really ____, and we ____ ourselves ____. */
+
+        const myNoun = "dog";
+        const myAdjective = "big";
+        const myVerb = "ran";
+        const myAdverb = "quickly";
+
+        // Only change code below this line
+        const wordBlanks = "The "+myAdjective+' '+myNoun+' '+myVerb+' '+myAdverb+' '+'.'; // Change this line
+        // Only change code above this line
