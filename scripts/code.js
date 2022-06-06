@@ -83,9 +83,69 @@ multi-word variable names have the first word in lowercase, second word in caps 
     myVar = myVar + 5;
     // to add 5 to myVar. Since this is such a common pattern, there are operators which do both a mathematical operation and assignment in one step.
 
-    // One such operator is the +=,-=,/=,*= operator.
+    // One such operator is the +=, -=, /=, *= operator.
 
     let myVar = 1;
     myVar += 5;
     console.log(myVar);
     // 6 would be displayed in the console.
+
+    // When you are defining a string you must start and end with a single or double quote. 
+    // What happens when you need a literal quote: " or ' inside of your string?
+
+    // In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash 
+    // (\) in front of the quote.
+
+    const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
+    // This signals to JavaScript that the following quote is not the end of the string,
+    //  but should instead appear inside the string. So if you were to print this to the console, you would get:
+
+    // Alan said, "Peter is learning JavaScript".
+    // Use backslashes to assign a string to the myStr variable so that if you were to print it to the console, you would see:
+
+    // I am a "double quoted" string inside "double quotes".
+    // Anwser
+    const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
+    /* String values in JavaScript may be written with single or double quotes,
+     as long as you start and end with the same type of quote. Unlike some other programming languages, 
+     single and double quotes work the same in JavaScript. */
+
+    const doubleQuoteStr = "This is a string"; 
+    const singleQuoteStr = 'This is also a string';
+    const conversation = 'Finn exclaims to Jake, "Algebraic!"';
+    const goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"'; 
+    // Error below
+    // const badStr = 'Finn responds, "Let's go!"';
+
+    // In the goodStr above, you can use both quotes safely by using the backslash \ as an escape character.
+
+    // Note: The backslash \ should not be confused with the forward slash /. They do not do the same thing.
+
+    
+  /*    Code	Output
+        \'	    single quote
+        \"	    double quote
+        \\	    backslash
+        \n	    newline
+        \r	    carriage return
+        \t	    tab
+        \b	    word boundary
+        \f	    form feed */
+
+        // FirstLine
+        //     \SecondLine
+        // ThirdLine
+
+        // Code for above
+        const myStr2 = "FirstLine\n\t\\SecondLine\nThirdLine";
+
+        /* In JavaScript, when the + operator is used with a String value, it is called the concatenation operator. 
+        You can build a new string out of other strings by concatenating them together.
+        'My name is Alan,' + ' I concatenate.'
+        Note: Watch out for spaces. Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself. */
+
+        Example:
+
+        const ourStr = "I come first. " + "I come second.";
+        // The string I come first. I come second. would be displayed in the console.
