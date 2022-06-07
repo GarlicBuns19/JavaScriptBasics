@@ -407,3 +407,42 @@ multi-word variable names have the first word in lowercase, second word in caps 
     }
     console.log(output);
     }
+
+    // Local Scope and Functions
+    // Variables which are declared within a function, as well as the function parameters, have local scope. That means they are only visible within that function.
+
+    // Here is a function myTest with a local variable called loc.
+
+    function myTest() {
+    const loc = "foo";
+    console.log(loc);
+    }
+
+    myTest();
+    console.log(loc);
+    // The myTest() function call will display the string foo in the console. 
+    // The console.log(loc) line (outside of the myTest function) will throw an error, as loc is not defined outside of the function.
+
+    // Global vs. Local Scope in Functions
+    // It is possible to have both local and global variables with the same name. When you do this, 
+    // the local variable takes precedence over the global variable.
+
+    const someVar = "Hat";
+
+    function myFun() {
+    const someVar = "Head";
+    return someVar;
+    }
+    // The function myFun will return the string Head because the local version of the variable is present.
+    // Add a local variable to myOutfit function to override the value of outerWear with the string sweater.
+    // Setup
+    const outerWear = "T-Shirt";
+
+    function myOutfit() {
+    // Only change code below this line
+    var outerWear = 'sweater'
+    // Only change code above this line
+    return outerWear;
+    }
+
+    myOutfit();
