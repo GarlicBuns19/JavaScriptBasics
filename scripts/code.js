@@ -337,3 +337,39 @@ multi-word variable names have the first word in lowercase, second word in caps 
         console.log('Hi World');
       }
       reusableFunction()
+
+    //   Parameters are variables that act as placeholders for the values that are to be input to a function when it is called. 
+    //   When a function is defined, it is typically defined along with one or more parameters. 
+    //   The actual values that are input (or "passed") into a function when it is called are known as arguments.
+
+    //   Here is a function with two parameters, param1 and param2:
+      
+      function testFun(param1, param2) {
+        console.log(param1, param2);
+      }
+    //   Then we can call testFun like this: testFun("Hello", "World");. We have passed two string arguments, Hello and World. 
+    //   Inside the function, param1 will equal the string Hello and param2 will equal the string World. 
+    //   Note that you could call testFun again with different arguments and the parameters would take on the value of the new arguments.
+      
+    //   Create a function called functionWithArgs that accepts two arguments and outputs their sum to the dev console.
+    //   Call the function with two numbers as arguments.
+    function functionWithArgs(a,b){
+        console.log(a + b)
+      }
+      functionWithArgs(1,2)
+
+    //   We can pass values into a function with arguments. You can use a return statement to send a value back out of a function.
+
+    function plusThree(num) {
+        return num + 3;
+      }
+      
+      const answer = plusThree(5);
+    //   answer has the value 8.
+      
+    //   plusThree takes an argument for num and returns a value equal to num + 3.
+    // Create a function timesFive that accepts one argument, multiplies it by 5, and returns the new value.
+    function timesFive(num){
+        return num*5
+      }
+      
