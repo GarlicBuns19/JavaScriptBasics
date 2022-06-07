@@ -310,3 +310,30 @@ multi-word variable names have the first word in lowercase, second word in caps 
         ourArray.shift();
         ourArray.unshift("Happy");
         // After the shift, ourArray would have the value ["J", "cat"]. After the unshift, ourArray would have the value ["Happy", "J", "cat"].
+
+    //     Create a shopping list in the variable myList. The list should be a multi-dimensional array containing several sub-arrays.
+
+    // The first element in each sub-array should contain a string with the name of the item. 
+    // The second element should be a number representing the quantity i.e.
+
+    ["Chocolate Bar", 15]
+    // There should be at least 5 sub-arrays in the list.
+    const myList = [['Pop',1],['Pops',2],['Popd',3],['Popf',4],['Popg',5]];
+
+    // In JavaScript, we can divide up our code into reusable parts called functions.
+
+    // Here's an example of a function:
+
+    function functionName() {
+    console.log("Hello World");
+    }
+    // You can call or invoke this function by using its name followed by parentheses, 
+    // like this: functionName(); Each time the function is called it will print out the message Hello World on the dev console. 
+    // All of the code between the curly braces will be executed every time the function is called.
+
+    // Create a function called reusableFunction which prints the string Hi World to the dev console.
+    // Call the function.
+    function reusableFunction() {
+        console.log('Hi World');
+      }
+      reusableFunction()
