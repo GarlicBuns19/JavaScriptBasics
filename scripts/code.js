@@ -217,3 +217,5 @@ multi-word variable names have the first word in lowercase, second word in caps 
         // Only change code below this line
         const wordBlanks = "The "+myAdjective+' '+myNoun+' '+myVerb+' '+myAdverb+' '+'.'; // Change this line
         // Only change code above this line
+
+        
