@@ -384,10 +384,13 @@ multi-word variable names have the first word in lowercase, second word in caps 
     // Using let or const, declare a global variable named myGlobal outside of any function. Initialize it with a value of 10.
     // Inside function fun1, assign 5 to oopsGlobal without using the let or const keywords
     // Declare the myGlobal variable below this line
+    // Global varuable can be used throughout code
     let myGlobal = 10;
 
     function fun1() {
     // Assign 5 to oopsGlobal Here
+    // If u assign var to oopsGlobal then u can not use it outside this block of code
+    // But since u didnt se var it is automatically a global varuable
     myGlobal
     oopsGlobal = 5;
     }
