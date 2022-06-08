@@ -3,6 +3,13 @@
 /* This is a
 multi-line comment */
 // =======================================================================
+''
+""
+// both of these is to create a string varuable
+
+``
+//  back ticks above tab is for formatting your output
+// =======================================================================
 
 // Declare JavaScript Variables
 // JavaScript Variables
