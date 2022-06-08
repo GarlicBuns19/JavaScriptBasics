@@ -1,8 +1,9 @@
+// Comment Your JavaScript Code
 // This is an in-line comment.
-
 /* This is a
 multi-line comment */
 
+// Declare JavaScript Variables
 // JavaScript Variables
 /*  undefined
     null
@@ -12,6 +13,18 @@ multi-line comment */
     bigint
     number 12
     object*/
+
+    // Storing Values with the Assignment Operator
+    // In JavaScript, you can store a value in a variable with the assignment operator (=).
+
+    myVariable = 5;
+    // This assigns the Number value 5 to myVariable.
+
+    // If there are any calculations to the right of the = operator, those are performed before the value is assigned to the variable on the left of the operator.
+
+    var myVar;
+    myVar = 5;
+    // First, this code creates a variable named myVar. Then, the code assigns 5 to myVar. Now, if myVar appears again in the code, the program will treat it as if it is 5.
 
 // We tell JavaScript to create or declare a variable by putting the keyword var in front of it
     var ourName;
