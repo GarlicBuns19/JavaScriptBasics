@@ -270,7 +270,7 @@ multi-word variable names have the first word in lowercase, second word in caps 
 
         // We can access the data inside arrays using indexes.
 
-        // Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, 
+        // Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character,
         // they are specifying an entry in the array. Like strings,
         // arrays use zero-based indexing, so the first element in an array has an index of 0.
 
@@ -288,9 +288,8 @@ multi-word variable names have the first word in lowercase, second word in caps 
 
         // Note: There shouldn't be any spaces between the array name and the square brackets, like array [0]. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
 
-        // One way to think of a multi-dimensional array, is as an array of arrays. When you use brackets to access your array, 
-        // the first set of brackets refers to the entries in the outer-most (the first level) array, 
-        // and each additional pair of brackets refers to the next level of entries inside.
+        // One way to think of a multi-dimensional array, is as an array of arrays. When you use brackets to access your array,
+        // the first set of brackets refers to the entries in the outer-most (the first level) array,
 
         const arr = [
         [1, 2, 3],
@@ -303,9 +302,10 @@ multi-word variable names have the first word in lowercase, second word in caps 
         arr[3][0];
         arr[3][0][1];
         // arr[3] is [[10, 11, 12], 13, 14], arr[3][0] is [10, 11, 12], and arr[3][0][1] is 11.
+// =======================================================================
 
-        // Note: There shouldn't be any spaces between the array name and the square brackets, 
-        // like array [0][0] and even this array [0] [0] is not allowed. Although JavaScript is able to process this correctly, 
+        // Note: There shouldn't be any spaces between the array name and the square brackets,
+        // like array [0][0] and even this array [0] [0] is not allowed. Although JavaScript is able to process this correctly,
         // this may confuse other programmers reading your code.
 
         // An easy way to append data to the end of an array is via the push() function.
@@ -318,6 +318,7 @@ multi-word variable names have the first word in lowercase, second word in caps 
         const arr2 = ["Stimpson", "J", "cat"];
         arr2.push(["happy", "joy"]);
         // arr1 now has the value [1, 2, 3, 4] and arr2 has the value ["Stimpson", "J", "cat", ["happy", "joy"]].
+// =======================================================================
 
         // Another way to change the data in an array is with the .pop() function.
 
@@ -330,6 +331,7 @@ multi-word variable names have the first word in lowercase, second word in caps 
         console.log(oneDown);
         console.log(threeArr);
         // The first console.log will display the value 6, and the second will display the value [1, 4].
+// =======================================================================
 
         // pop() always removes the last element of an array. What if you want to remove the first?
 
@@ -338,11 +340,12 @@ multi-word variable names have the first word in lowercase, second word in caps 
         const ourArray = ["Stimpson", "J", ["cat"]];
         const removedFromOurArray = ourArray.shift();
         // removedFromOurArray would have a value of the string Stimpson, and ourArray would have ["J", ["cat"]].
+// =======================================================================
 
-        // Not only can you shift elements off of the beginning of an array, 
+        // Not only can you shift elements off of the beginning of an array,
         // you can also unshift elements to the beginning of an array i.e. add elements in front of the array.
 
-        // .unshift() works exactly like .push(), but instead of adding the element at the end of the array, 
+        // .unshift() works exactly like .push(), but instead of adding the element at the end of the array,
         // unshift() adds the element at the beginning of the array.
 
         const ourArray = ["Stimpson", "J", "cat"];
