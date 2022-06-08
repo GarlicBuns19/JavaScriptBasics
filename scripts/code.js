@@ -2,6 +2,7 @@
 // This is an in-line comment.
 /* This is a
 multi-line comment */
+// =======================================================================
 
 // Declare JavaScript Variables
 // JavaScript Variables
@@ -13,6 +14,7 @@ multi-line comment */
     bigint
     number 12
     object*/
+// =======================================================================
 
     // Storing Values with the Assignment Operator
     // In JavaScript, you can store a value in a variable with the assignment operator (=).
@@ -25,11 +27,24 @@ multi-line comment */
     var myVar;
     myVar = 5;
     // First, this code creates a variable named myVar. Then, the code assigns 5 to myVar. Now, if myVar appears again in the code, the program will treat it as if it is 5.
+// =======================================================================
+
+    // Assigning the Value of One Variable to Another
+    // After a value is assigned to a variable using the assignment operator, you can assign the value of that variable to another variable using the assignment operator.
+
+    var myVar;
+    myVar = 5;
+    var myNum;
+    myNum = myVar;
+    // The above declares a myVar variable with no value, then assigns it the value 5.
+    // Next, a variable named myNum is declared with no value.
+    // Then, the contents of myVar (which is 5) is assigned to the variable myNum. Now, myNum also has the value of 5.
+// =======================================================================
 
 // We tell JavaScript to create or declare a variable by putting the keyword var in front of it
     var ourName;
-/*  creates a variable called ourName. 
-    Variable names can be made up of numbers, letters, and $ or _, 
+/*  creates a variable called ourName.
+    Variable names can be made up of numbers, letters, and $ or _,
     but may not contain spaces or start with a number.  */
 
 // The operator equal sign = stores a value
@@ -40,6 +55,7 @@ multi-line comment */
 
 // A string
     var myName = "your name";
+// =======================================================================
 
 // JavaScript all variables and function names are case sensitive. This means that capitalization matters.
 /* Write variable names in JavaScript in camelCase. In camelCase, 
