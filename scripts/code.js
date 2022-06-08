@@ -93,10 +93,10 @@ multi-word variable names have the first word in lowercase, second word in caps 
     const myVar = 2 / 2;
 
     // Increment a number
-    i = 10 
+    i = 10
     i++
     // 11 is answer
-    ++i 
+    ++i
     // 12 is answer
 // =======================================================================
 
@@ -109,6 +109,7 @@ multi-word variable names have the first word in lowercase, second word in caps 
     // In mathematics, a number can be checked to be even or odd by checking the remainder of the division of the number by 2.
     // 17 % 2 = 1 (17 \'is Odd')
     // 48 % 2 = 0 (48 \'is Even')
+// =======================================================================
 
     // In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
 
@@ -121,11 +122,12 @@ multi-word variable names have the first word in lowercase, second word in caps 
     myVar += 5;
     console.log(myVar);
     // 6 would be displayed in the console.
+// =======================================================================
 
-    // When you are defining a string you must start and end with a single or double quote. 
+    // When you are defining a string you must start and end with a single or double quote.
     // What happens when you need a literal quote: " or ' inside of your string?
 
-    // In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash 
+    // In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash
     // (\) in front of the quote.
 
     const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
@@ -138,15 +140,16 @@ multi-word variable names have the first word in lowercase, second word in caps 
     // I am a "double quoted" string inside "double quotes".
     // Anwser
     const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+// =======================================================================
 
     /* String values in JavaScript may be written with single or double quotes,
-     as long as you start and end with the same type of quote. Unlike some other programming languages, 
+     as long as you start and end with the same type of quote. Unlike some other programming languages,
      single and double quotes work the same in JavaScript. */
 
-    const doubleQuoteStr = "This is a string"; 
+    const doubleQuoteStr = "This is a string";
     const singleQuoteStr = 'This is also a string';
     const conversation = 'Finn exclaims to Jake, "Algebraic!"';
-    const goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"'; 
+    const goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"';
     // Error below
     // const badStr = 'Finn responds, "Let's go!"';
 
