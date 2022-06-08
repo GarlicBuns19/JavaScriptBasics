@@ -154,10 +154,9 @@ multi-word variable names have the first word in lowercase, second word in caps 
     // const badStr = 'Finn responds, "Let's go!"';
 
     // In the goodStr above, you can use both quotes safely by using the backslash \ as an escape character.
+// =======================================================================
 
     // Note: The backslash \ should not be confused with the forward slash /. They do not do the same thing.
-
-    
   /*    Code	Output
         \'	    single quote
         \"	    double quote
@@ -174,32 +173,32 @@ multi-word variable names have the first word in lowercase, second word in caps 
 
         // Code for above
         const myStr2 = "FirstLine\n\t\\SecondLine\nThirdLine";
+// =======================================================================
 
-        /* In JavaScript, when the + operator is used with a String value, it is called the concatenation operator. 
+        /* In JavaScript, when the + operator is used with a String value, it is called the concatenation operator.
         You can build a new string out of other strings by concatenating them together.
         'My name is Alan,' + ' I concatenate.'
         Note: Watch out for spaces. Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself. */
 
-        Example:
-
         const ourStr = "I come first. " + "I come second.";
         // The string I come first. I come second. would be displayed in the console.
 
-        // Just as we can build a string over multiple lines out of string literals, 
+        // Just as we can build a string over multiple lines out of string literals,
         //  we can also append variables to a string using the plus equals (+=) operator.
 
         const anAdjective = "awesome!";
         let ourStr2 = "freeCodeCamp is ";
         // ourStr += anAdjective;
         // ourStr would have the value freeCodeCamp is awesome!.
+// =======================================================================
 
         // You can find the length of a String value by writing .length after the string variable or string literal.
 
         console.log("Alan Peter".length);
-        // The value 10 would be displayed in the console. 
+        // The value 10 would be displayed in the console.
         // Note that the space character between "Alan" and "Peter" is also counted.
 
-        // For example, if we created a variable const firstName = "Ada", 
+        // For example, if we created a variable const firstName = "Ada",
         // we could find out how long the string Ada is by using the firstName.length property.
 
         // Setup
@@ -211,6 +210,7 @@ multi-word variable names have the first word in lowercase, second word in caps 
         console.log(lastNameLength.length);
 
         // Bracket notation is a way to get a character at a specific index within a string.
+// =======================================================================
 
         // Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as Zero-based indexing.
 
@@ -237,6 +237,7 @@ multi-word variable names have the first word in lowercase, second word in caps 
         const firstName4 = "Augusta";
         const thirdToLastLetter = firstName[firstName.length - 3];
         // thirdToLastLetter would have a value of the string s.
+// =======================================================================
 
         /*We will now use our knowledge of strings to build a "Mad Libs" style word game we're calling "Word Blanks". You will create an (optionally humorous) "Fill in the Blanks" style sentence.
 
