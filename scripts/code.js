@@ -253,10 +253,11 @@ multi-word variable names have the first word in lowercase, second word in caps 
         // Only change code below this line
         const wordBlanks = "The "+myAdjective+' '+myNoun+' '+myVerb+' '+myAdverb+' '+'.'; // Change this line
         // Only change code above this line
+// =======================================================================
 
         // With JavaScript array variables, we can store several pieces of data in one place.
 
-        // You start an array declaration with an opening square bracket, end it with a closing square bracket, 
+        // You start an array declaration with an opening square bracket, end it with a closing square bracket,
         // and put a comma between each entry, like this:
 
         const sandwich = ["peanut butter", "jelly", "bread"];
@@ -265,17 +266,19 @@ multi-word variable names have the first word in lowercase, second word in caps 
 
         const teams = [["Bulls", 23], ["White Sox", 45]];
         // This is also called a multi-dimensional array.
+// =======================================================================
 
         // We can access the data inside arrays using indexes.
 
         // Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, 
-        // they are specifying an entry in the array. Like strings, 
+        // they are specifying an entry in the array. Like strings,
         // arrays use zero-based indexing, so the first element in an array has an index of 0.
 
         const array = [50, 60, 70];
         console.log(array[0]);
         const data = array[1];
         // The console.log(array[0]) prints 50, and data has the value 60.
+// =======================================================================
 
         // Unlike strings, the entries of arrays are mutable and can be changed freely, even if the array was declared with const.
 
