@@ -72,6 +72,7 @@ multi-word variable names have the first word in lowercase, second word in caps 
 
 /* In the code above, the camper variable is originally declared as James,
    and is then overridden to be David. The console then displays the string David. */
+// =======================================================================
 
 // Use let, a variable with the same name can only be declared once.
 
@@ -82,6 +83,7 @@ multi-word variable names have the first word in lowercase, second word in caps 
     // The console will display an error due to reassigning the value of FAV_PET.
     // uppercase for const
     // camelCase for var and let
+// =======================================================================
 
     //Use + symbol as an addition operator when placed between two numbers.
     const myVar = 2 + 2;
@@ -96,7 +98,8 @@ multi-word variable names have the first word in lowercase, second word in caps 
     // 11 is answer
     ++i 
     // 12 is answer
-    
+// =======================================================================
+
 // The remainder operator % gives the remainder of the division of two numbers.
     // 5 % 2 = 1
     // Math.floor(5 / 2) = 2
