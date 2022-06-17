@@ -101,9 +101,9 @@ multi-word variable names have the first word in lowercase, second word in caps 
 
     // Increment a number
     i = 10
-    i++
-    // 11 is answer
     ++i
+    // 11 is answer
+    i+=2
     // 12 is answer
 // =======================================================================
 
